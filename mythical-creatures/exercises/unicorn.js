@@ -13,7 +13,7 @@ class Unicorn {
   }
 
   says(words) {
-    return `**;* ${words} *;**`
+    return `**;* ${words} *;**`;
   }
 }
 
