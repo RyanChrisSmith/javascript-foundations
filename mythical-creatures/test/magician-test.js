@@ -2,7 +2,7 @@ var assert = require('chai').assert;
 var Magician = require('../exercises/magician');
 
 describe('Magician', function() {
-// Oh no! It looks like there's no text in the `it` blocks! I guess you'll have to read the tests SUPER carefully to know what the test is expecting!
+// Oh no! It looks like there's no text in the `it.skip` blocks! I guess you'll have to read the tests SUPER carefully to know what the test is expecting!
 
 it('', function() {
     assert.isFunction(Magician);
