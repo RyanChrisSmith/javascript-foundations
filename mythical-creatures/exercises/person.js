@@ -5,5 +5,4 @@ class Person {
     this.mood = mood;
   }
 }
-
 module.exports = Person;
