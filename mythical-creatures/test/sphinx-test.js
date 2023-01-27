@@ -8,10 +8,10 @@ describe('Sphinx', () => {
 
   it('should have no name', () => {
     // instantiate a Sphinx object with no arguments
-
+    var sphinxy = new Sphinx();
     // assert that the spinx's name is null
-
-    //NOTE: We will not ask you to write your own tests in a mod 1 assessment, but it is good practice to prepare for mod 2!
+    assert.equal(sphinxy.name, null)
+    //NOTE: We will not ask you to write your own tests in a mod 1 assessment, but it.skip is good practice to prepare for mod 2!
   });
 
   it('should start with no riddles', () => {
@@ -23,7 +23,7 @@ describe('Sphinx', () => {
   it('should collect riddles', () => {
     const sphinx = new Sphinx();
     const riddle = {
-      riddle: 'What word becomes shorter when you add two letters to it?',
+      riddle: 'What word becomes shorter when you add two letters to it.skip?',
       answer: 'short'
     };
 
@@ -35,12 +35,12 @@ describe('Sphinx', () => {
   it('should collect only three riddles', () => {
     const sphinx = new Sphinx();
     const riddle1 = {
-      riddle: 'What word becomes shorter when you add two letters to it?',
+      riddle: 'What word becomes shorter when you add two letters to it.skip?',
       answer: 'short'
     };
     const riddle2 = {
       riddle: 'How far can a fox run into a grove?',
-      answer: 'Halfway, after that it\'s running out.'
+      answer: 'Halfway, after that it.skip\'s running out.'
     };
     const riddle3 = {
       riddle: 'What starts with an \'e\' and ends with an \'e\' and contains one letter?',
@@ -75,12 +75,12 @@ describe('Sphinx', () => {
   it('should accept answers in any order', () => {
     const sphinx = new Sphinx();
     const riddle1 = {
-      riddle: 'What word becomes shorter when you add two letters to it?',
+      riddle: 'What word becomes shorter when you add two letters to it.skip?',
       answer: 'short'
     };
     const riddle2 = {
       riddle: 'How far can a fox run into a grove?',
-      answer: 'Halfway, after that it\'s running out.'
+      answer: 'Halfway, after that it.skip\'s running out.'
     };
     const riddle3 = {
       riddle: 'What starts with an \'e\' and ends with an \'e\' and contains one letter?',
